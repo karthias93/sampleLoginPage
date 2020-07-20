@@ -1,0 +1,52 @@
+html {
+  font-size: 14px;
+}
+body {
+  margin: 0;
+  line-height: 1.29;
+  font-family: Montserrat;
+}
+.btn-default {
+  border-radius: 0.214rem;
+  background-color: #0a406b;
+  color: #FFF;
+  margin: 1.428rem 0;
+  width: 100%;
+}
+.btn-default:hover {
+  color: #FFF;
+  background-color: #0a406b;
+}
+.form-check {
+  text-align: center;
+  color: #003b71;
+  font-weight: bold;
+  .form-check-input {
+    margin-top: .1rem;
+  }
+}
+@media (max-width: 768px) { 
+  html {
+      font-size: 10px;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  html {
+    font-size: 12px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  html {
+    font-size: 12px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 1200px) { 
+  html {
+    font-size: 14px;
+  }
+}

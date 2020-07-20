@@ -1,0 +1,99 @@
+.Login {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #7badd3, #003b71);
+
+    .Login-container {
+        margin-top: 4.714rem
+    }
+
+    .Login-card {
+        border-radius: 1.143rem;
+        box-shadow: 0 0.214rem 0.428rem 0 rgba(0, 0, 0, 0.16);
+        background-color: #ffffff;
+        width: 31.5%;
+        padding: 3.214rem 2.785rem 0 2.785rem;
+
+        img {
+            padding: 0 2.143rem 2.785rem 2.143rem;
+            height: 6.642rem;
+        }
+
+        .Login-form-container {
+            padding-top: 1.428rem;
+
+            .form-label {
+                color: #003b71;
+                font-weight: bold;
+                margin-bottom: 0;
+                width: 100%;
+            }
+            input {
+                background-color: #e9f1f8;
+                border: none;
+                border-radius: 0.214rem;
+            }
+            .password {
+                margin-bottom: 0.571rem;
+                .show-password {
+                    float: right;
+                    color: #79add5;
+                }
+            }
+            a {
+                color: #79add5;
+                font-weight: bold;
+            }
+            a:hover {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .Login-footer-container {
+        color: #0a406b;
+        font-weight: 500;
+        padding-bottom: 0.714rem;
+
+        hr {
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+        }
+        .Footer-text {
+            padding-bottom: 0.5rem;
+        }
+    }
+}
+
+@media (max-width: 768px) { 
+    .Login {
+        .Login-card {
+          width: 90%;
+        }
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .Login {
+        .Login-card {
+          width: 50%;
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .Login {
+        .Login-card {
+          width: 40%;
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 1200px) { 
+    .Login {
+        .Login-card {
+          width: 31%;
+        }
+    }
+}
